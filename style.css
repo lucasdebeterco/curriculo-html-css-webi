@@ -1,16 +1,7 @@
 body {
     margin: 0;
     background: rgb(63, 63, 63);
-    font-family: 'Montserrat', comic-sans;
-}
-
-.content {
-    display: flex;
-    justify-self: center;
-    align-items: center;
-    max-width: 1280px;
-    margin-left: auto;
-    margin-right: auto;
+    font-family: "Montserrat", comic-sans;
 }
 
 .content .area-conteudo {
@@ -22,30 +13,25 @@ body {
 }
 
 .area-lateral {
-    width: 400px;
+    width: 30%;
     height: 889px;
     margin: 20px;
     border-radius: 20px;
     background: rgb(0, 132, 255);
 }
 
-.user-area {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 400px;
-    width: 400px;
+.image-area {
+    height: 40%;
 }
 
-.user-area .image {
+.image-area .image {
     height: 200px;
     width: 200px;
     background: rgb(177, 177, 177);
     border-radius: 50%;
 }
 
-.user-area .nome {
+.image-area .nome {
     color: #fff;
     margin-top: 20px;
     font-weight: bold;
