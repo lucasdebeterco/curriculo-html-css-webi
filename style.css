@@ -2,6 +2,7 @@ body {
     margin: 0;
     background: rgb(63, 63, 63);
     font-family: "Montserrat", comic-sans;
+    color: #fff;
 }
 
 .content .area-conteudo {
@@ -20,6 +21,22 @@ body {
     background: rgb(0, 132, 255);
 }
 
+.area-lateral .contato {
+    align-self: flex-end;
+    width: 80%;
+    height: 30%;
+    padding: 10%;
+}
+
+.area-lateral .contato .title{
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.area-lateral .contato .info-contato span{
+    margin-bottom: 5px;
+}
+
 .image-area {
     height: 40%;
 }
@@ -32,8 +49,13 @@ body {
 }
 
 .image-area .nome {
-    color: #fff;
+    color: white;
     margin-top: 20px;
     font-weight: bold;
     font-size: 20px;
+}
+
+
+.area-conteudo {
+
 }
